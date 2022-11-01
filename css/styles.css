@@ -18,7 +18,8 @@ li {
   margin-bottom: 15px;
 }
 
-ol, ul{
+ol,
+ul {
   margin: 0 important!;
   padding: 0;
 }
@@ -43,10 +44,10 @@ ol, ul{
 }
 
 .about-me-container {
-padding: 80px 60px;
+  padding: 80px 60px;
 }
 
-p.pillow{
+p.pillow {
   font-size: 18px;
   text-indent: 15px;
   text-align: justify;
@@ -115,7 +116,7 @@ p.pillow{
 }
 
 .tech-skills-title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 24px;
   color: #ffffff;
@@ -132,11 +133,11 @@ p.pillow{
 
 .tech-skills-text {
   color: #d1d3d7;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .soft-skills-title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 24px;
   color: #ffffff;
@@ -152,7 +153,7 @@ p.pillow{
 
 .soft-skills-text {
   color: #d1d3d7;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .profession {
@@ -218,7 +219,7 @@ p.pillow{
   font-weight: 100;
 }
 
-.projects-list{
+.projects-list {
   margin-left: 10x;
 }
 
@@ -272,7 +273,12 @@ p.pillow{
   margin-top: 14px;
 }
 
-.container{
+.cetificate-link {
+  color: #000;
+  font-size: 18px;
+}
+
+.container {
   border: none;
   border-radius: 15px;
   box-shadow: 0 0 13px 5px rgba(0, 0, 0, 0.2);
