@@ -1,4 +1,5 @@
 * {
+  /* font-size: 1.2rem; */
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -42,7 +43,13 @@ ol, ul{
 }
 
 .about-me-container {
-padding: 100px 60px;
+padding: 80px 60px;
+}
+
+p.pillow{
+  font-size: 18px;
+  text-indent: 15px;
+  text-align: justify;
 }
 
 .contacts-container {
@@ -65,13 +72,13 @@ padding: 100px 60px;
 }
 
 .tech-skills-container {
-  margin-top: 55px;
+  margin-top: 45px;
   margin-left: 40px;
   margin-right: 40px;
 }
 
 .soft-skills-container {
-  margin-top: 55px;
+  margin-top: 45px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -108,7 +115,7 @@ padding: 100px 60px;
 }
 
 .tech-skills-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 24px;
   color: #ffffff;
@@ -125,10 +132,11 @@ padding: 100px 60px;
 
 .tech-skills-text {
   color: #d1d3d7;
+  font-size: 18px;
 }
 
 .soft-skills-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 24px;
   color: #ffffff;
@@ -136,7 +144,6 @@ padding: 100px 60px;
 }
 
 .soft-skills-item {
-  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #da6010;
@@ -145,18 +152,22 @@ padding: 100px 60px;
 
 .soft-skills-text {
   color: #d1d3d7;
+  font-size: 18px;
 }
 
 .profession {
-  font-size: 14px;
+  font-size: 27px;
   font-weight: 700;
   line-height: 24px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .name {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 89px;
+  text-align: center;
 }
 
 .description {
@@ -207,6 +218,10 @@ padding: 100px 60px;
   font-weight: 100;
 }
 
+.projects-list{
+  margin-left: 10x;
+}
+
 .project-item {
   font-weight: 700;
   margin-left: 15px;
@@ -239,7 +254,7 @@ padding: 100px 60px;
 .prof-duties {
   margin-top: 14px;
   margin-bottom: 30px;
-  /* margin-left: 15px; */
+  margin-left: 25px;
 }
 
 .prof-duties-item {
@@ -262,5 +277,5 @@ padding: 100px 60px;
   border-radius: 15px;
   box-shadow: 0 0 13px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 50px;
-  padding: 20px;
+  padding: 20px 30px;
 }
