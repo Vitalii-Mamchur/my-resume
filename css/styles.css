@@ -200,12 +200,6 @@ p.pillow {
   transition: all 0.3s;
 }
 
-.projects-link:hover,
-.contacts-link:hover,
-.mail-link:hover {
-  color: #ff6b08;
-}
-
 .tech-name {
   text-align: right;
   color: #595959;
@@ -224,8 +218,18 @@ p.pillow {
 }
 
 .project-item {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
   font-weight: 700;
   margin-left: 15px;
+  cursor: pointer;
+}
+
+.projects-link:hover,
+.contacts-link:hover,
+.mail-link:hover {
+  color: #ff6b08;
 }
 
 .profession-title {
@@ -284,4 +288,8 @@ p.pillow {
   box-shadow: 0 0 13px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 50px;
   padding: 20px 30px;
+}
+
+.container:last-child {
+  margin-bottom: 0;
 }
