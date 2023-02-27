@@ -214,7 +214,14 @@ p.pillow {
 }
 
 .projects-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-left: 10x;
+}
+
+.projects-list ol {
+  width: 60%;
 }
 
 .project-item {
@@ -224,6 +231,11 @@ p.pillow {
   font-weight: 700;
   margin-left: 15px;
   cursor: pointer;
+}
+
+.qrCode img {
+  /* display: inline-block; */
+  width: 150px;
 }
 
 .projects-link:hover,
