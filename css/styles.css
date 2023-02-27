@@ -44,7 +44,7 @@ ul {
 }
 
 .about-me-container {
-  padding: 80px 60px;
+  padding: 60px;
 }
 
 p.pillow {
@@ -217,14 +217,14 @@ p.pillow {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 10x;
+  margin-left: 10px;
 }
 
 .projects-list ol {
   width: 60%;
 }
 
-.project-item {
+.projects-list .project-item {
   display: flex;
   justify-content: space-between;
   max-width: 400px;
@@ -235,7 +235,12 @@ p.pillow {
 
 .qrCode img {
   /* display: inline-block; */
-  width: 150px;
+  width: 190px;
+}
+
+.about-me-list {
+  margin-left: 20px;
+  list-style-type: none;
 }
 
 .projects-link:hover,
@@ -289,9 +294,16 @@ p.pillow {
   margin-top: 14px;
 }
 
-.cetificate-link {
+.certificate-link {
+  display: block;
+  margin-top: 14px;
+  font-weight: bold;
   color: #000;
   font-size: 18px;
+}
+
+.certificate-link:hover {
+  color: #ff6b08;
 }
 
 .container {
