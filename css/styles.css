@@ -228,14 +228,14 @@ p.pillow {
 .projects-list .project-item {
   display: flex;
   justify-content: space-between;
-  max-width: 400px;
+  max-width: 510px;
   font-weight: 700;
   margin-left: 15px;
   cursor: pointer;
 }
 
 .project {
-  color: #da6010;
+  text-decoration: underline;
 }
 
 .qrCode img {
