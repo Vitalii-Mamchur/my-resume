@@ -45,6 +45,7 @@ ul {
 
 .about-me-container {
   padding: 60px;
+  min-width: 485px;
 }
 
 p.pillow {
@@ -188,7 +189,7 @@ p.pillow {
   line-height: 24px;
   color: black;
   margin-left: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .projects-link {
@@ -221,7 +222,7 @@ p.pillow {
 }
 
 .projects-list ol {
-  width: 60%;
+  width: 100%;
 }
 
 .projects-list .project-item {
@@ -231,6 +232,10 @@ p.pillow {
   font-weight: 700;
   margin-left: 15px;
   cursor: pointer;
+}
+
+.project {
+  color: #da6010;
 }
 
 .qrCode img {
